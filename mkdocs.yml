@@ -1,3 +1,4 @@
+yaml
 site_name: Industrial Automation & Modbus Tech Log
 site_description: Field troubleshooting notes, hex frames, and hardware fixes for PLCs, power meters, and industrial protocols.
 theme:
