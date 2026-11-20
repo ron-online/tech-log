@@ -1,4 +1,5 @@
 site_name: Industrial Automation Tech Log
+site_url: https://ron-online.github.io/tech-log/
 site_description: Field troubleshooting notes, hex frames, and hardware fixes.
 
 theme:
