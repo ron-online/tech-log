@@ -1,0 +1,12 @@
+site_name: Industrial Automation & Modbus Tech Log
+site_description: Field troubleshooting notes, hex frames, and hardware fixes for PLCs, power meters, and industrial protocols.
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Power Meters:
+      - Socomec DIRIS A-30 (Error 83 03): meters/socomec-diris-a30-8303.md
