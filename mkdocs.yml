@@ -4,7 +4,10 @@ site_description: Field troubleshooting notes, hex frames, and hardware fixes.
 
 theme:
   name: material
+  custom_dir: overrides
   features:
+    - navigation.tabs          # Adds clean top category tabs
+    - navigation.sections      # Groups pages neatly in the left sidebar
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -13,3 +16,10 @@ nav:
   - Home: index.md
   - Power Meters:
       - Socomec DIRIS A-30 (Error 83 03): meters/socomec-diris-a30-8303.md
+  # Uncomment or add sections below as you create new logs:
+  # - PLCs & I/O:
+  #     - Siemens S7-1200 Modbus Timeout: plcs/siemens-s7-1200-timeout.md
+  # - VFDs & Drives:
+  #     - Danfoss FC302 Alarm 14: vfds/danfoss-fc302-alarm-14.md
+  # - Protocols & Wiring:
+  #     - RS-485 & Modbus RTU Checklist: protocols/modbus-rtu-checklist.md
