@@ -4,7 +4,7 @@ site_description: Field troubleshooting notes, hex frames, and hardware fixes.
 
 theme:
   name: material
-  custom_dir: overrides
+  #custom_dir: overrides
   features:
     - navigation.tabs          # Adds clean top category tabs
     - navigation.sections      # Groups pages neatly in the left sidebar
